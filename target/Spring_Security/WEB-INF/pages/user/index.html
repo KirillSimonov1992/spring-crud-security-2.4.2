@@ -26,7 +26,7 @@
         </div>
 
     </div>
-    <p sec:authorize="hasRole('ADMIN')">
+    <p sec:authorize="hasAuthority('ADMIN')">
         <a href="/admin/user-create">Create user</a>
     </p>
     <br>
